@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+@font-face {
+    font-family: "Circular Regular";
+    src: url("https://static1.squarespace.com/static/5ff43b0269011948ff5fb388/t/5ff43dd59b309f34a9e1a358/1609842133015/CircularXXWeb-Regular.woff") format('woff');
+}
+@font-face {
+    font-family: "Circular-Medium";
+    src: url("hhttps://static1.squarespace.com/static/5ff43b0269011948ff5fb388/t/5ff43dcfb4bf6f0d1a785dfa/1609842127296/CircularXXWeb-Medium.woff") format('woff');
+}
+.header {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5ff43b0269011948ff5fb388/1609845560712-HXACVQJ4MLSAP0BH1I27/AdobeStock_297974223.jpg");
+    height: 425px;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    overflow: hidden;
+    background-color: rgba(209, 209, 209, 0.582);
+    background-blend-mode: soft-light;
+}
+
+.header-image {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-title {
+    color: #1e0b66;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-description {
+    font-family: "Circular Regular";
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 1.2rem;
+    color: #000000;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 500px;
+}
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1440px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+#table-paging-and-sorting {
+    font-family: "Circular Regular";
+    margin-top: 100px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card{
+    border-radius: 0.4rem;
+    background-color: #6A67CE;
+    color: #FFFFFF;
+    box-shadow: 0px 10px 15px -3px rgb(178, 180, 232);
+}
+
+.card-title {
+    font-family: "Circular Regular";
+    font-style: bold;
+    font-size: 32px;
+}
+
+.card-text{
+    font-family: "Circular Regular";
+}
+
+.card-header {
+    font-family: "Circular Regular";
+
+}
+.table{
+    font-family: "Circular Regular";
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px #e1e5ee;
+    background-color : white;
+    text-align : left;
+    overflow : hidden;
+}
+
+.table thead{
+    box-shadow: 0px 5px 10px #e1e5ee;
+}
+.table tr:nth-child(even){
+    background-color: #f4f6fb;}
+
+.table tr:hover {
+    border-radius: 0.2rem;
+    background-color: #6A67CE;
+    color: white;
+}
+
+.table td, .table th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.table-t-text {
+    padding-top: 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.csection{
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: "Circular Regular";
+    color: #1e0b66;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+dash-graph {
+    border-radius: 0.4rem;
+    background-color: #6A67CE;
+    color: #FFFFFF;
+    box-shadow: 0px 10px 15px -3px rgb(178, 180, 232);
+    
+}
+.border-secondary {
+    border-color: transparent!important;
+}
+.section-description {
+    font-family: "Circular Regular";
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 1.2rem;
+    color: #000000;
+    margin: 4px auto;
+    margin-bottom: 2rem;
+}
